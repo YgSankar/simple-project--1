@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn page</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: black;">
+        <div class="container-fluid">
+            <div image class="float-start" style="margin-left: 50px;">
+                <button type="button" class="btn btn-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Home">
+                    <img src="C:\Users\GOPISANKAR\Desktop\Project1\assets\d917uax-ab86ac86-7341-4f6a-a1e2-ae8a47926534.png"  width="220" height="80">
+                </button>
+            </div>
+
+            <div class="container-fluid" style="float: right;">
+                <ul class="nav" style="margin-top:0px; margin-left: 680px;">
+                    <li class="nav-item"><a class="nav-link" href="#"><strong>ABOUT</strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="./login.html"><strong>LOGIN</strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="./register.html"><strong>REGISTER</strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" style="border-radius: 30px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg></button></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebaroffcanvas -->
+    <div class="offcanvas offcanvas-end" id="demo">
+        <div class="offcanvas-header">
+            <a href="#"><button type="button" class="btn btn-outline-dark" style=" text-align:center; border-radius: 30px;">Choose<br>your pic<br>here</button></a>
+            <h1 class="offcanvas-title" style="font-family: Bell Mt; color: blue;">Name</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="container-fluid mt-3">
+                <h5 class="offcanvas-title" style="font-family: Bell Mt; color: blue;">Phone</h5>
+                <h5 class="offcanvas-title" style="font-family: Bell Mt; color: blue;">Email</h5><hr>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#"><button type="button" class="btn btn-outline-info">My Subscription</button></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><button type="button" class="btn btn-outline-info">My Books</button></a></li><hr>
+                    <li class="nav-item"><a class="nav-link" href="#"><button type="button" class="btn btn-outline-danger">Log out  
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                        </svg></button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id = "form" style="background-color:aqua; padding: 50px; width: 25%; height: 50%; border-radius: 10px; margin: 100px auto;">
+        <h3 style="font-family: Times New Roman; color:blue;">Login</h3>
+        <form name = "f1" action = "logInAuthentic.php" onsubmit="return validation()" method="POST">
+            
+            <div class="form-floating">
+                <input type="text" class="form-control" id="user" placeholder="Phone/email" name="user">
+                <label for="email">Phone or email</label>
+            </div><br>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="pass" placeholder="password" name="pswd">
+                <label for="pass">Password</label>
+            </div>
+            
+            <br><button type="button" class="btn btn-outline-primary" onclick="validation()">submit</button>
+        </form>
+    </div>
+
+    <script>
+        function validation()  
+        {  
+            var id=document.f1.user.value;  
+            var ps=document.f1.pass.value;
+            if(id.length=="" && ps.length=="")
+            {  
+                alert("Phone or Email and Password fields are empty");  
+                return false;  
+            }  
+            else  
+            {  
+                if(id.length=="")
+                {  
+                    alert("Phone or Email is empty");  
+                    return false;  
+                }   
+                if (ps.length=="")
+                {  
+                    alert("Password field is empty");  
+                    return false;  
+                }  
+            }                             
+        }  
+    </script>
+
+
+
+
+    <div class="container-fluid">
+        <div class="row row-cols-2 row-cols-lg-4 g-4 g-lg-4" style="background-color:black; margin-top: -70px;">
+            <div class="col">
+
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <div class="d-grid gap-2 col-sm-10 mx-auto" style="margin-top: 0px; margin-left:0px;">
+                        <div style=" margin-top: 0px; margin-left:0px;">
+                                <h5 style="font-family: Bell MT; color: white;"><strong>Address :</strong></h5>
+                                <h5 style="font-family: Bell MT; color: orangered;">Near Metro Station,<br> KPHB colony,<br> Hyderabad - 500072.</h5>
+                            <button class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="right" title="Contact Us" type="button" style="text-align:center; border-radius: 10px; height: 100px; ">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.4138447046735!2d78.39325961479781!3d17.48774728801853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91e126d30001%3A0x22f7a1e6d62955c2!2sTemple%20bus%20stop!5e0!3m2!1sen!2sin!4v1676455326214!5m2!1sen!2sin" width="80" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" >
+                <div class="p-3">
+                    <div class="d-grid gap-2 col-sm-10 mx-auto" style="margin-top: 0px; margin-left:60px;">
+                        <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#myModal" data-bs-placement="bottom" type="button" style=" text-align:center; border-radius: 10px; height: 100px; ">
+                            <div style="text-align:center; width: auto; height: 100px; margin-top: 10px; margin-left:0px;">
+                                <h3 style="font-family: Brussels; color: orangered;">Rate Us</h3>
+                                <a href ="#"><img src="C:\Users\GOPISANKAR\Desktop\Project1\assets\Rating-Star-Transparent-PNG.png"  width="70%"></a>
+                            </div>
+                        </button>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h2 class="offcanvas-title" style="font-family: Brussels; color: blue;">Rate Our Services</h2><br>
+                                    <form>
+                                        <label for="customRange" class="form-label">Push the pointer upto bar end.</label>
+                                        <input type="range" class="form-range" id="customRange" name="points" min="0" max="5">
+                                    </form>
+                                </div>
+                            
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <label for="comment">Drop your Review in words:</label>
+                                    <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                                    <button type="submit" class="btn btn-outline-basic mt-3">Post</button>
+                                </div>
+                            
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="nav" style="padding:30px;">
+                        <li><a target="blank" href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/ width="35" height="35"></a></li>
+                        <li><a target="blank" href="#"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/ width="35" height="35"></a></li>
+                        <li><a target="blank" href="#"><img src="https://img.icons8.com/color/48/null/instagram-new--v1.png"/ width="35" height="35"></a></li>
+                        <li><a target="blank" href="#"><img src="https://img.icons8.com/color/48/null/youtube-play.png"/ width="35" height="35"></a></li>
+                    </ul>
+
+                </div> 
+            </div>
+
+            <script>
+                var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                  return new bootstrap.Tooltip(tooltipTriggerEl)
+                })
+                </script>
+
+        </div>
+    </div>
+
+    <div style="background-color: khaki; text-align: center; padding: 5px; font-family: Bell MT; font-size: 15px;">This web page is part of Explaining about INDIA in Detail.</div>
+
+</body>
+</html>
